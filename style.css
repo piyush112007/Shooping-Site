@@ -1,0 +1,116 @@
+/* Import  */
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+/* Default  */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Amazon Ember", sans-serif;
+  border: border-box;
+}
+/* Border  */
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid #f0f0f0;
+}
+/* Navbar  */
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+/* Logo  */
+.logo {
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("./amazon_logo.png");
+}
+/* Address  */
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+#add1 {
+  margin-left: 15px;
+  color: #cccccc;
+  font-size: 0.85rem;
+}
+#add2 {
+  margin-left: 3px;
+  font-size: 1rem;
+}
+/* Search Bar  */
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  transition-duration: 100ms;
+}
+#filter {
+  background-color: #f3f3f3;
+  border-radius: 4px 0 0 4px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+#search {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+#search:focus {
+  outline: none;
+}
+.nav-search:hover {
+  border: 2px solid #febd68;
+}
+.nav-search:focus {
+  outline: none;
+  border: 2px solid #febd68;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  background-color: #febd68;
+  border-radius: 0 4px 4px 0;
+  color: black;
+}
+/* User Info */
+#signin1 {
+  font-size: 0.75rem;
+}
+#signin2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* Order-info  */
+#order1 {
+  font-size: 0.75rem;
+}
+#order2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* Cart */
+.cart i {
+  font-size: 30px;
+}
+.cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
