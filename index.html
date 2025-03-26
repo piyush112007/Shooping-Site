@@ -7,48 +7,179 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="nav-logo border">
-        <div class="logo"></div>
-      </div>
-      <!-- logo end here -->
-      <div class="nav-address border">
-        <p id="add1">Deliver to</p>
-        <div class="add-icon">
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+        <!-- logo end here -->
+        <div class="nav-address border padding">
+          <p id="add1">Deliver to</p>
           <div class="add-icon">
-            <i class="fa-solid fa-location-dot"></i>
-            <p id="add2">India</p>
+            <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p id="add2">India</p>
+            </div>
           </div>
         </div>
+        <!-- address end here -->
+        <div class="nav-search">
+          <select name="Filter" id="filter">
+            <option>All</option>
+          </select>
+          <input placeholder="Search Amazon" id="search" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- search end her -->
+        <div class="nav-signin border padding">
+          <p id="signin1"><span>Hello, Sign In</span></p>
+          <p id="signin2">Account & Lists</p>
+        </div>
+        <!-- signin end here -->
+        <div class="order-info border padding">
+          <p id="order1">Returns</p>
+          <p id="order2">& Orders</p>
+        </div>
+        <!-- order-info end here   -->
+        <div class="cart border padding">
+          <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+          Cart
+        </div>
+        <!-- cart end here -->
       </div>
-      <!-- address end here -->
-      <div class="nav-search">
-        <select name="Filter" id="filter">
-          <option>All</option>
-        </select>
-        <input placeholder="Search Amazon" id="search" />
-        <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
+      <!-- navbar ends here -->
+      <div class="panel">
+        <div class="panel-all border padding">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+        <div class="panel-opps">
+          <p class="border padding">Today's Deals</p>
+          <p class="border padding">Customer Serivce</p>
+          <p class="border padding">Registry</p>
+          <p class="border padding">Gift Cards</p>
+          <p class="border padding" padding>Sell</p>
+        </div>
+        <div class="panel-deals border padding">
+          <p>Shop deals in electornics</p>
         </div>
       </div>
-      <!-- search end her -->
-      <div class="nav-signin border">
-        <p id="signin1"><span>Hello, Sign In</span></p>
-        <p id="signin2">Account & Lists</p>
+      <!-- panel ends here -->
+    </header>
+    <!-- header ends here -->
+    <div class="hero-section">
+      <div class="hero-message">
+        <p>
+          You are on amazon.com. You can Also shop on Amazon india for millions
+          of products with fast delivery.<a href="https://www.amazon.in/"
+            >Click here to go to amazon.in</a
+          >
+        </p>
       </div>
-      <!-- signin end here -->
-      <div class="order-info border">
-        <p id="order1">Returns</p>
-        <p id="order2">& Orders</p>
-      </div>
-      <!-- order-info end here   -->
-      <div class="cart border">
-        <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
-        Cart
-      </div>
-      <!-- cart end here -->
     </div>
-    <!-- navbar ends here -->
+    <!-- hero-section ends here -->
+    <div class="shopsection">
+      <div class="box">
+        <div class="box-content">
+          <h2>Gaming accessories</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box1_image.jpg')"
+          ></div>
+          <a href="https://www.amazon.com/b/?_encoding=UTF8"><p>See more</p></a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>New year,new supplies</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box2_image.jpg')"
+          ></div>
+          <a href="https://www.amazon.com/s?k=school+supplies&_encoding=UTF8"
+            ><p>Shop office products</p></a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Get your game on</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box3_image.jpg')"
+          ></div>
+          <a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8"
+            ><p>Shop gaming</p></a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Shop for your home essentials</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box4_image.jpg')"
+          ></div>
+          <a href="https://www.amazon.com/s?k=home&_encoding=UTF8"
+            ><p>Discover more in Home</p></a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Top categories in kitchen appliances</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box5_image.jpg')"
+          ></div>
+          <a href="https://www.amazon.com/s?k=kitchen+products&_encoding=UTF8"
+            ><p>Explore all products in Kitchen</p></a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Shop deals in Fashion</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box6_image.jpg')"
+          ></div>
+          <a
+            href="https://www.amazon.com/events/bigspringsale?deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252215E8DB96732AF8CA9C14916141BB1C4C%2522%252C%2522departments%2522%253A%255B%25227147440011%2522%252C%25227192394011%2522%252C%2522679337011%2522%252C%25226358543011%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&ref_=nav_cs_gb&ie=UTF8&bubble-id=15E8DB96732AF8CA9C14916141BB1C4C"
+            ><p>See all deals</p></a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>New home arrivals under $50</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box7_image.jpg')"
+          ></div>
+          <a
+            href="https://www.amazon.com/s?k=home&i=garden&rh=n%3A1055398%2Cp_36%3A-5000&s=exact-aware-popularity-rank&dc&_encoding=UTF8"
+            ><p>Shop the latest for Home</p></a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Fill you basket with joy</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box8_image.jpg')"
+          ></div>
+          <a
+            href="https://www.amazon.com/b/?_encoding=UTF8&node=23767567011&ref_=pd_hp_d_atf_unk"
+            ><p>Shop for Easter</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- shopsection ends here -->
   </body>
   <script
     src="https://kit.fontawesome.com/1b4b0878ce.js"
